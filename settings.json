@@ -1,0 +1,68 @@
+{
+    "[css]": {
+        "editor.tabSize": 2,
+    },
+    "css.lint.idSelector": "warning",
+    "css.lint.universalSelector": "warning",
+    "css.lint.zeroUnits": "warning",
+    "[django-html]": {
+        "editor.tabSize": 2,
+    },
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.scrollBeyondLastLine": false,
+    "editor.suggestSelection": "first",
+    "editor.wordWrap": "bounded",
+    "emmet.includeLanguages": {
+        "django-html": "html",
+        "jinja-html": "html"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "extensions.ignoreRecommendations": false,
+    "files.associations": {
+        "**/*.html": "html",
+        "**/templates/**/*.html": "django-html",
+        "**/templates/**/*": "django-txt",
+        "**/templates/*.html": "jinja-html",
+        "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+    },
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "[html]": {
+        "editor.tabSize": 2,
+    },
+    "html.format.endWithNewline": true,
+    "java.semanticHighlighting.enabled": true,
+    "[javascript]": {
+        "editor.tabSize": 2,
+    },
+    "less.lint.idSelector": "warning",
+    "less.lint.universalSelector": "warning",
+    "less.lint.zeroUnits": "warning",
+    "material-icon-theme.languages.associations": {
+        "jinja-html": "jinja"
+    },
+    "[php]": {
+        "editor.tabSize": 4,
+    },
+    "python.languageServer": "Pylance",
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Path": "/home/m1waterman88/.local/bin/flake8",
+    "python.linting.pycodestylePath": "/home/m1waterman88/.local/bin/pycodestyle",
+    "python.linting.pydocstyleEnabled": true,
+    "python.linting.pydocstylePath": "/home/m1waterman88/.local/bin/pydocstyle",
+    "python.linting.pylintEnabled": false,
+    "python.pythonPath": "/usr/bin/python3",
+    "python.venvPath": "${workspaceFolder}/venv*",
+    "scss.lint.idSelector": "error",
+    "scss.lint.universalSelector": "warning",
+    "scss.lint.zeroUnits": "warning",
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "todo-tree.tree.showScanModeButton": false,
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "window.zoomLevel": 1,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.iconTheme": "material-icon-theme",
+}
