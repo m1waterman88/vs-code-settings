@@ -29,11 +29,11 @@
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
     "[html]": {
         "editor.tabSize": 2,
     },
-    "gitlens.currentLine.enabled": false,
-    "gitlens.hovers.currentLine.over": "line",
     "html.format.endWithNewline": true,
     "java.semanticHighlighting.enabled": true,
     "[javascript]": {
