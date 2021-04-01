@@ -41,6 +41,7 @@
         "editor.tabSize": 2,
     },
     "[markdown]": {
+        "editor.tabSize": 2,
         "files.trimTrailingWhitespace": false,
     },
     "material-icon-theme.languages.associations": {
