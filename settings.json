@@ -15,12 +15,16 @@
     "editor.wordWrap": "bounded",
     "emmet.includeLanguages": {
         "django-html": "html",
-        "jinja-html": "html"
+        "jinja-html": "html",
+        "php": "html",
+        "twig": "html",
+        "vue-html": "html",
     },
     "emmet.triggerExpansionOnTab": true,
     "extensions.ignoreRecommendations": false,
     "files.associations": {
         "**/*.html": "html",
+        "*.html": "twig",
         "**/templates/**/*.html": "django-html",
         "**/templates/**/*": "django-txt",
         "**/templates/*.html": "jinja-html",
@@ -29,19 +33,16 @@
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
-    "gitlens.currentLine.enabled": false,
-    "gitlens.hovers.currentLine.over": "line",
     "[html]": {
         "editor.tabSize": 2,
     },
     "html.format.endWithNewline": true,
-    "java.semanticHighlighting.enabled": true,
     "[javascript]": {
         "editor.tabSize": 2,
     },
-    "less.lint.idSelector": "warning",
-    "less.lint.universalSelector": "warning",
-    "less.lint.zeroUnits": "warning",
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false,
+    },
     "material-icon-theme.languages.associations": {
         "jinja-html": "jinja"
     },
@@ -62,9 +63,20 @@
     "scss.lint.zeroUnits": "warning",
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
-    "todo-tree.tree.showScanModeButton": false,
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "window.zoomLevel": 1,
+    "[vue]": {
+        "editor.tabSize": 2,
+    },
+    "[vue-html]": {
+        "editor.tabSize": 2,
+    },
     "workbench.startupEditor": "newUntitledFile",
     "workbench.iconTheme": "material-icon-theme",
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "window.zoomLevel": 1,
 }
