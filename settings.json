@@ -37,6 +37,7 @@
         "editor.tabSize": 2,
     },
     "html.format.endWithNewline": true,
+    "intelephense.telemetry.enabled": false,
     "[javascript]": {
         "editor.tabSize": 2,
     },
@@ -62,8 +63,12 @@
     "scss.lint.idSelector": "error",
     "scss.lint.universalSelector": "warning",
     "scss.lint.zeroUnits": "warning",
-    "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false,
+    "[shellscript]": {
+        "editor.insertSpaces": false,
+        "editor.tabSize": 8,
+        "files.eol": "\n",
+    },
+    "telemetry.telemetryLevel": "off",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "[vue]": {
         "editor.tabSize": 2,
@@ -73,11 +78,5 @@
     },
     "workbench.startupEditor": "newUntitledFile",
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
-    ],
     "window.zoomLevel": 1,
 }
