@@ -38,6 +38,7 @@
         "editor.tabSize": 2,
     },
     "html.format.endWithNewline": true,
+    "intelephense.environment.phpVersion": "7.4.16",
     "intelephense.telemetry.enabled": false,
     "[javascript]": {
         "editor.tabSize": 2,
@@ -49,9 +50,12 @@
     "material-icon-theme.languages.associations": {
         "jinja-html": "jinja"
     },
+    "merge-conflict.autoNavigateNextConflict.enabled": true,
     "[php]": {
         "editor.tabSize": 4,
     },
+    "php-docblocker.useShortNames": true,
+    "python.defaultInterpreterPath": "/usr/bin/env python",
     "python.languageServer": "Pylance",
     "python.linting.flake8Enabled": true,
     "python.linting.flake8Path": "/home/m1waterman88/.local/bin/flake8",
@@ -82,5 +86,6 @@
     },
     "window.zoomLevel": 1,
     "workbench.iconTheme": "material-icon-theme",
+    "workbench.settings.editor": "json",
     "workbench.startupEditor": "newUntitledFile",
 }
