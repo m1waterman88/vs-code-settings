@@ -8,6 +8,7 @@
     "[django-html]": {
         "editor.tabSize": 2,
     },
+    "editor.bracketPairColorization.enabled": true,
     "editor.detectIndentation": false,
     "editor.insertSpaces": true,
     "editor.scrollBeyondLastLine": false,
@@ -23,12 +24,12 @@
     "emmet.triggerExpansionOnTab": true,
     "extensions.ignoreRecommendations": false,
     "files.associations": {
-        "**/*.html": "html",
         "*.html": "twig",
+        "**/*.html": "html",
+        "**/requirements{/**,*}.{txt,in}": "pip-requirements",
+        "**/templates/*.html": "jinja-html",
         "**/templates/**/*.html": "django-html",
         "**/templates/**/*": "django-txt",
-        "**/templates/*.html": "jinja-html",
-        "**/requirements{/**,*}.{txt,in}": "pip-requirements"
     },
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
@@ -69,6 +70,9 @@
         "files.eol": "\n",
     },
     "telemetry.telemetryLevel": "off",
+    "[twig]": {
+        "editor.tabSize": 2,
+    },
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "[vue]": {
         "editor.tabSize": 2,
@@ -76,7 +80,7 @@
     "[vue-html]": {
         "editor.tabSize": 2,
     },
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.iconTheme": "material-icon-theme",
     "window.zoomLevel": 1,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "newUntitledFile",
 }
