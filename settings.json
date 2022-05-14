@@ -38,7 +38,7 @@
         "editor.tabSize": 2,
     },
     "html.format.endWithNewline": true,
-    "intelephense.environment.phpVersion": "7.4.16",
+    "intelephense.environment.phpVersion": "8.1.2",
     "intelephense.telemetry.enabled": false,
     "[javascript]": {
         "editor.tabSize": 2,
