@@ -63,6 +63,7 @@
     "python.languageServer": "Pylance",
     "python.linting.flake8Enabled": true,
     "python.linting.flake8Path": "/home/m1waterman88/.local/bin/flake8",
+    "python.linting.pycodestyleEnabled": true,
     "python.linting.pycodestylePath": "/home/m1waterman88/.local/bin/pycodestyle",
     "python.linting.pydocstyleEnabled": true,
     "python.linting.pydocstylePath": "/home/m1waterman88/.local/bin/pydocstyle",
